@@ -7,15 +7,15 @@ This code example has a three project structure: CM33 secure, CM33 non-secure, a
 
 [View this README on GitHub.](https://github.com/Infineon/mtb-example-psoc-edge-btstack-multi-beacon)
 
-[Provide feedback on this code example.](https://yourvoice.infineon.com/jfe/form/SV_1NTns53sK2yiljn?Q_EED=eyJVbmlxdWUgRG9jIElkIjoiQ0UyMzkyMDEiLCJTcGVjIE51bWJlciI6IjAwMi0zOTIwMSIsIkRvYyBUaXRsZSI6IlBTT0MmdHJhZGU7IEVkZ2UgTUNVOiBCbHVldG9vdGgmcmVnOyBMRSBtdWx0aSBiZWFjb24iLCJyaWQiOiJhcnZpbmRrdW1hci5zdXJlc2hrdW1hckBpbmZpbmVvbi5jb20iLCJEb2MgdmVyc2lvbiI6IjIuMS4wIiwiRG9jIExhbmd1YWdlIjoiRW5nbGlzaCIsIkRvYyBEaXZpc2lvbiI6Ik1DRCIsIkRvYyBCVSI6IklDVyIsIkRvYyBGYW1pbHkiOiJQU09DIn0=)
+[Provide feedback on this code example.](https://yourvoice.infineon.com/jfe/form/SV_1NTns53sK2yiljn?Q_EED=eyJVbmlxdWUgRG9jIElkIjoiQ0UyMzkyMDEiLCJTcGVjIE51bWJlciI6IjAwMi0zOTIwMSIsIkRvYyBUaXRsZSI6IlBTT0MmdHJhZGU7IEVkZ2UgTUNVOiBCbHVldG9vdGgmcmVnOyBMRSBtdWx0aSBiZWFjb24iLCJyaWQiOiJhcnZpbmRrdW1hci5zdXJlc2hrdW1hckBpbmZpbmVvbi5jb20iLCJEb2MgdmVyc2lvbiI6IjIuMi4wIiwiRG9jIExhbmd1YWdlIjoiRW5nbGlzaCIsIkRvYyBEaXZpc2lvbiI6Ik1DRCIsIkRvYyBCVSI6IklDVyIsIkRvYyBGYW1pbHkiOiJQU09DIn0=)
 
 See the [Design and implementation](docs/design_and_implementation.md) for the functional description of this code example.
 
 
 ## Requirements
 
-- [ModusToolbox&trade;](https://www.infineon.com/modustoolbox) v3.7 or later (tested with v3.7)
-- Board support package (BSP) minimum required version: 1.0.0
+- [ModusToolbox&trade;](https://www.infineon.com/modustoolbox) v3.7 or later (tested with v3.9)
+- Board support package (BSP) minimum required version: 1.4.0
 - Programming language: C
 - Associated parts: All [PSOC&trade; Edge MCU](https://www.infineon.com/products/microcontroller/32-bit-psoc-arm-cortex/32-bit-psoc-edge-arm) parts
 
@@ -24,7 +24,7 @@ See the [Design and implementation](docs/design_and_implementation.md) for the f
 
 - GNU Arm&reg; Embedded Compiler v14.2.1 (`GCC_ARM`) – Default value of `TOOLCHAIN`
 - Arm&reg; Compiler v6.22 (`ARM`)
-- IAR C/C++ Compiler v9.50.2 (`IAR`)
+- IAR C/C++ Compiler v9.70.4 (`IAR`)
 - LLVM Embedded Toolchain for Arm&reg; v19.1.5 (`LLVM_ARM`)
 
 
@@ -125,6 +125,7 @@ Document title: *CE239201* – *PSOC&trade; Edge MCU: Bluetooth&reg; LE multi be
  1.x.0   | New code example <br> Early access release
  2.0.0   | GitHub release
  2.1.0   | Added support for KIT_PSE84_HMI
+ 2.2.0   | Updated to support btstack-integration v7.X
 <br>
 
 
